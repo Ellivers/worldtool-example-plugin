@@ -1,4 +1,4 @@
-# Called by the process_start/common/setup_process hook (#worldtool:hooks/process_start/common/setup_process)
+# Called by the wt_example:process_start/common/setup_process
 # Sets up the snow process
 
 scoreboard players set #success worldtool 1
