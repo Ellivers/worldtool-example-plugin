@@ -1,9 +1,12 @@
 # Called by the language/en_us hook (#worldtool:language/en_us)
 # Adds translations to the English (US) language
 
-data modify storage worldtool:storage Translation."wt_example.info" set value '["",{"text":"WorldTool Example Plugin","color":"#2982ff","bold":true}," for WorldTool 0.6"]'
+data modify storage worldtool:storage Translation."wt_example.info" set value '["",{"text":"WorldTool Example Plugin","color":"#2982ff","bold":true}," for WorldTool 0.6.1"]'
+data modify storage worldtool:storage Translation."wt_example.warning.outdated" set value "Warning: Outdated WorldTool version for the Example Plugin. The required version is 0.6.1."
 
 data modify storage worldtool:storage Translation."wt_example.process.snow" set value "Snow"
+data modify storage worldtool:storage Translation."wt_example.label.process.snow" set value "Snow: "
+
 data modify storage worldtool:storage Translation."wt_example.button.snow.name" set value "[Snow...]"
 data modify storage worldtool:storage Translation."wt_example.button.snow.description" set value "Place snow on top of the selected blocks"
 data modify storage worldtool:storage Translation."wt_example.button.snow.run.description" set value "Run the snow placing"
